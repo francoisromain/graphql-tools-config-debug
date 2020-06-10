@@ -1,10 +1,5 @@
-# import * from 'users.graphql'
-# import * from 'enterprises.graphql'
+# import * from 'territoires.graphql'
 
 type Query {
-  me: User
-
-  user(id: ID!): User
-
-  enterprise(id: ID!): Enterprise
+  pays: [Pays]
 }

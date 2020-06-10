@@ -1,0 +1,13 @@
+type Departement {
+  id: ID!
+}
+
+type Region {
+  id: ID!
+  departements: [Departement]
+}
+
+type Pays {
+  id: ID!
+  regions: [Region]
+}
