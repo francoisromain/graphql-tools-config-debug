@@ -1,0 +1,10 @@
+# import * from 'users.graphql'
+# import * from 'enterprises.graphql'
+
+type Query {
+  me: User
+
+  user(id: ID!): User
+
+  enterprise(id: ID!): Enterprise
+}

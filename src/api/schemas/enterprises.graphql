@@ -1,0 +1,4 @@
+type Enterprise {
+  id: ID!
+  users: [User]
+}
